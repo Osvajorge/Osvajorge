@@ -1,9 +1,9 @@
 # 💫 About Me:
 🔭 I’m currently working on Oracle Mexico<br>
 👯 I’m looking to collaborate on Data (Science, analyst, Engineer) projects<br>
-🤝 I’m looking for help with "![Python Arithmetic Formater](https://github.com/Osvajorge/Aritmetic-Formater)"<br>
+🤝 I’m looking for help with "[Python Arithmetic Formater](https://github.com/Osvajorge/Aritmetic-Formater)"<br>
 🌱 I’m currently learning Data Science ralated libraries<br>
-✍️ I constantly Write on ![Medium](https://medium.com/@Osvajorge)"<br>
+✍️ I constantly Write on [Medium](https://medium.com/@Osvajorge)"<br>
 💬 Ask me about whatever you want<br>
 ⚡ Fun fact, I do gymnastics as well
 
