@@ -8,6 +8,9 @@
 ⚡ Fun fact, I do gymnastics as well
 
 # 📊 GitHub Stats:
+<a href="https://github.com/osvajorge/osvajorge">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=osvajorge&hide=java,html,tex&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21&langs_count=3" />
+</a> 
 ![](https://github-readme-stats.vercel.app/api?username=osvajorge&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=osvajorge&theme=tokyonight&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=osvajorge&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
