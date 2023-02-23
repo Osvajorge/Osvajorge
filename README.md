@@ -8,9 +8,14 @@
 ⚡ Fun fact, I do gymnastics as well
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=osvajorge&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-![](https://github-readme-stats.vercel.app/api?username=osvajorge&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)
- <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=YulietM&theme=react&line_height=40&hide=css"/> </a>
+  <div align="center"> 
+     <a href="">
+      <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Osvajorge&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=40" />
+    </a>
+    <a href="">
+      <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Osvajorge&theme=react&line_height=40&hide=css"/>
+    </a>
+</div
 ![](https://github-readme-streak-stats.herokuapp.com/?user=osvajorge&theme=tokyonight&hide_border=false)<br/>
 
 
