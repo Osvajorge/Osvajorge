@@ -10,10 +10,10 @@
 # 📊 GitHub Stats:
 <div align="center"> 
   <a href="">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Osvajorge&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=30" style="max-width: 100%; margin: 10px; display: block;" />
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Osvajorge&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=30" style="max-width: 100%; margin-right: 20px; height: 160px; object-fit: contain;" />
   </a>
   <a href="">
-    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Osvajorge&theme=react&line_height=40&hide=css" style="max-width: 100%; margin: 10px; display: block;" />
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Osvajorge&theme=react&line_height=40&hide=css" style="max-width: 100%; margin-left: 20px; height: 160px; object-fit: contain;" />
   </a>
 </div>
 
