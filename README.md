@@ -15,8 +15,10 @@
     <a href="">
       <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Osvajorge&theme=react&line_height=40&hide=css"/>
     </a>
+    <a href="">
+      <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=osvajorge&theme=tokyonight&hide_border=false"/>
+    </a>   
 </div
-![](https://github-readme-streak-stats.herokuapp.com/?user=osvajorge&theme=tokyonight&hide_border=false)<br/>
 
 
 
