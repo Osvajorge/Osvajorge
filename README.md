@@ -8,17 +8,14 @@
 ⚡ Fun fact, I do gymnastics as well
 
 # 📊 GitHub Stats:
-  <div align="center"> 
-     <a href="">
-      <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Osvajorge&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=30" />
-    </a>
-    <a href="">
-      <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Osvajorge&theme=react&line_height=40&hide=css"/>
-    </a>
-    <a href="">
-      <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=osvajorge&theme=tokyonight&hide_border=false"/>
-    </a>   
-</div
+<div align="center"> 
+  <a href="">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Osvajorge&show_icons=true&include_all_commits=true&count_private=true&theme=react&line_height=30" style="max-width: 100%; margin: 10px; display: block;" />
+  </a>
+  <a href="">
+    <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Osvajorge&theme=react&line_height=40&hide=css" style="max-width: 100%; margin: 10px; display: block;" />
+  </a>
+</div>
 
 
 
