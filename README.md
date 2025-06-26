@@ -9,7 +9,7 @@
 - 📊 Currently working as a Data Analyst at Oracle
 - 🤝 Open to collaborating on Data Science and Analytics projects
 - 🐍 Passionate about Python and data-driven insights
-- ✍️ I write about data science on [Medium](https://medium.com/@tu-usuario)
+- ✍️ I write about data science on [Medium](https://medium.com/@osvajorge)
 - 🏃‍♂️ When I'm not coding, you'll find me at the gym
 
 ---
@@ -52,8 +52,8 @@
 
 <div align="center">
   
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/tu-usuario)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@tu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/osvajorge)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@osvajorge)
 
 </div>
 
@@ -73,8 +73,6 @@ Complete solutions for Wizeline's Data Engineering Bootcamp selection challenge,
 ---
 
 <div align="center">
-  
-**"Data is the new oil, but analytics is the refinery"**
 
 ⭐ *Feel free to explore my repositories and don't hesitate to reach out for collaboration!*
 
