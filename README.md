@@ -8,7 +8,7 @@
 
 - 📊 Currently working as a Data Analyst at Oracle
 - 🤝 Open to collaborating on Data Science and Analytics projects
-- 🐍 Passionate about Python and data-driven insights
+- 🐍 Passionate about Python, SQL and data-driven insights
 - ✍️ I write about data science on [Medium](https://medium.com/@osvajorge)
 - 🏃‍♂️ When I'm not coding, you'll find me at the gym
 
