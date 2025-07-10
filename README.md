@@ -18,7 +18,7 @@
 
 **Core Technologies:**
 - **Databases:** Oracle Database, Microsoft SQL Server, SQL, T-SQL, SSMS
-- **Programming:** Python, Pandas, NumPy, Matplotlib, seaborn
+- **Programming:** Python, Pandas, NumPy, Matplotlib, Seaborn
 - **Machine Learning:** Hugging Face, Local Model Deployment
 - **Cloud & Infrastructure:** Oracle Cloud Infrastructure, Linux
 - **Version Control:** Git, GitHub
