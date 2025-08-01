@@ -1,6 +1,6 @@
 # Hi there, I'm Jorge 👋
 
-**Data Analyst at Oracle** | **Data Science Enthusiast**
+**Data Solutions Engineer at Oracle** | **Data Science Enthusiast**
 
 ---
 
