@@ -63,6 +63,9 @@
 ### 🎬 [Letterboxd Analytics](https://github.com/osvajorge/letterboxd-analytics)
 Python-based analytics platform for analyzing movie data and user behavior patterns from Letterboxd platform (still working on it).
 
+### 🛩️ [Databricks Flights Data Warehouse](https://github.com/osvajorge/databricks-dbt-flights-project)
+End-to-end data engineering solution built on Databricks implementing Medallion Architecture with dynamic pipeline orchestration, incremental data processing using Autoloader, and automated dimensional modeling (SCD Type 1) for flight booking analytics.
+
 ### 🏛️ [Mexican Government Word Cloud](https://github.com/osvajorge/mexican-government-wordcloud)
 NLP analysis of Mexican government communications using Jupyter Notebooks and data visualization techniques.
 
