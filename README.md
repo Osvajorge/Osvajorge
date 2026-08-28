@@ -39,7 +39,7 @@ repeated manual work from the delivery loop.
 | **Storage and formats** | Delta Lake, Delta Sharing, Parquet, AWS S3 |
 | **Platforms** | o9 Solutions, Databricks, Snowflake, Cloudflare, Oracle Cloud Infrastructure |
 | **Modeling and orchestration** | dbt, Delta Live Tables, Autoloader, Airflow, GitHub Actions |
-| **Machine learning** | scikit-learn, XGBoost, statistical modeling (Poisson, Dixon-Coles, Elo), backtesting and calibration |
+| **Machine learning** | scikit-learn, XGBoost, probabilistic and time-series modeling, ensembling, backtesting and calibration |
 | **AI assisted engineering** | Claude Code, Model Context Protocol (MCP) servers, custom agent skills, Hugging Face, local model deployment |
 | **Testing** | pytest, Playwright, Vitest |
 | **Workflow** | Git, GitHub, Linux, VS Code |
@@ -50,16 +50,6 @@ French (learning)
 ---
 
 ## Selected projects
-
-### [Kini](https://kini.bet)
-
-Football forecasting engine trained on 353,577 historical matches. It combines a
-Dixon-Coles model with tau correction, an Elo regularizer, and an XGBoost meta learner,
-then compares its probabilities against market odds to find value.
-
-Also covers Shin de-vigging, quarter-Kelly stake sizing, Closing Line Value (CLV)
-tracking, and a public track record. Runs on Cloudflare Pages with a GitHub Actions
-cron pipeline. Tested with pytest, Vitest, and Playwright.
 
 ### [dbt Databricks Retail Data Warehouse](https://github.com/Osvajorge/dbt-databricks-retail-data-warehouse)
 
@@ -86,6 +76,19 @@ Pages. [Source](https://github.com/Osvajorge/world-cup-draw-app).
 ### [LeetCode Interview Mastery](https://github.com/Osvajorge/LeetCode-Interview-Mastery)
 
 Structured practice repository for SQL, Python, and algorithms.
+
+---
+
+## GitHub activity
+
+<div align="center">
+  <img alt="Profile details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=osvajorge&theme=github_dark"/>
+</div>
+
+<div align="center">
+  <img alt="Repositories per language" height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=osvajorge&theme=github_dark"/>
+  <img alt="Most committed language" height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=osvajorge&theme=github_dark"/>
+</div>
 
 ---
 
