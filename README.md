@@ -2,23 +2,31 @@
 
 **Data Engineer** · Barcelona, Spain
 
-Building production data pipelines for enterprise supply-chain planning. Currently at
-[Quantiqus](https://quantiqus.com), working on-site with Mango on a large-scale
-[o9 Solutions](https://o9solutions.com) implementation for Merchandise Financial Planning
-and Assortment Planning.
+I build production data pipelines for enterprise supply chain planning. I work at
+[Quantiqus](https://www.linkedin.com/company/quantiqus/) on an
+[o9 Solutions](https://o9solutions.com) implementation for
+[Mango](https://www.mango.com/), covering Merchandise Financial Planning (MFP) and
+Assortment Planning (AP).
+
+Before this, I spent five years as a Data Engineer at Oracle and TCS. That background
+still shapes how I read query plans and debug execution behavior.
 
 ---
 
 ## What I work on
 
-- **Integration pipelines** — medallion architecture (raw → normalized → planning layer) built in PySpark, moving data from Snowflake and Databricks into the o9 data lake.
-- **Data modeling** — Delta Lake tables, incremental merges, SCD handling, and dimensional models that feed OLAP cubes and live planning workspaces.
-- **Data quality** — reconciliation and validation frameworks that catch drift between source systems and the planning platform before the business does.
-- **Documentation** — pipeline specs, runbooks, and architecture notes that let the next engineer pick up the work without a handover call.
+**Integration pipelines.** Medallion architecture (raw, normalized, planning layer)
+built in PySpark. Data moves from Snowflake and Databricks into the o9 data lake through
+Delta Sharing and staged file loads.
 
-Before moving into data engineering, I spent roughly five years in SQL support
-engineering at Oracle and TCS — a background that still shapes how I debug query
-plans and read execution behavior.
+**Data modeling.** Delta Lake tables, incremental merges, slowly changing dimensions,
+and dimensional models that feed OLAP cubes and live planning workspaces.
+
+**Data quality.** Reconciliation and validation frameworks that catch drift between
+source systems and the planning platform before the business does.
+
+**Automation.** Scheduled jobs, CI pipelines, and AI assisted tooling that remove
+repeated manual work from the delivery loop.
 
 ---
 
@@ -26,53 +34,64 @@ plans and read execution behavior.
 
 | Area | Tools |
 |---|---|
-| **Processing** | PySpark, Python, pandas |
+| **Processing** | PySpark, Python, pandas, NumPy |
 | **Query** | SQL, Snowflake SQL, Spark SQL, T-SQL, Oracle PL/SQL |
-| **Storage & formats** | Delta Lake, Delta Sharing, Parquet, AWS S3 |
-| **Platforms** | o9 Solutions, Databricks, Snowflake, Oracle Cloud Infrastructure |
-| **Modeling & orchestration** | dbt, Delta Live Tables, Autoloader, Airflow |
+| **Storage and formats** | Delta Lake, Delta Sharing, Parquet, AWS S3 |
+| **Platforms** | o9 Solutions, Databricks, Snowflake, Cloudflare, Oracle Cloud Infrastructure |
+| **Modeling and orchestration** | dbt, Delta Live Tables, Autoloader, Airflow, GitHub Actions |
+| **Machine learning** | scikit-learn, XGBoost, statistical modeling (Poisson, Dixon-Coles, Elo), backtesting and calibration |
+| **AI assisted engineering** | Claude Code, Model Context Protocol (MCP) servers, custom agent skills, Hugging Face, local model deployment |
+| **Testing** | pytest, Playwright, Vitest |
 | **Workflow** | Git, GitHub, Linux, VS Code |
 
-**Languages:** Spanish (native) · English (professional) · German (conversational) · French (learning)
+**Languages:** Spanish (native) · English (professional) · German (conversational) ·
+French (learning)
 
 ---
 
 ## Selected projects
 
-**[dbt Databricks Retail Data Warehouse](https://github.com/Osvajorge/dbt-databricks-retail-data-warehouse)**
-Multi-layered warehouse (bronze → silver → gold) built with dbt on Databricks, covering
-data modeling, transformation, testing, and generated documentation.
+### [Kini](https://kini.bet)
 
-**[Databricks Flights Data Warehouse](https://github.com/Osvajorge/databricks-flights-project)**
-End-to-end pipeline with incremental ingestion via Autoloader, transformations in Delta
-Live Tables, and a gold layer with dynamic dimension and fact builders producing a star schema.
+Football forecasting engine trained on 353,577 historical matches. It combines a
+Dixon-Coles model with tau correction, an Elo regularizer, and an XGBoost meta learner,
+then compares its probabilities against market odds to find value.
 
-**[E-commerce Product Analytics](https://github.com/Osvajorge/ecommerce-product-analytics)**
-Analytics platform for product metrics and customer insights on a modern data stack —
+Also covers Shin de-vigging, quarter-Kelly stake sizing, Closing Line Value (CLV)
+tracking, and a public track record. Runs on Cloudflare Pages with a GitHub Actions
+cron pipeline. Tested with pytest, Vitest, and Playwright.
+
+### [dbt Databricks Retail Data Warehouse](https://github.com/Osvajorge/dbt-databricks-retail-data-warehouse)
+
+Multi-layered warehouse (bronze, silver, gold) built with dbt on Databricks. Covers data
+modeling, transformation, testing, and generated documentation.
+
+### [Databricks Flights Data Warehouse](https://github.com/Osvajorge/databricks-flights-project)
+
+End to end pipeline with incremental ingestion through Autoloader, transformations in
+Delta Live Tables, and a gold layer with dynamic dimension and fact builders that produce
+a star schema.
+
+### [E-commerce Product Analytics](https://github.com/Osvajorge/ecommerce-product-analytics)
+
+Analytics platform for product metrics and customer insights on a modern data stack:
 dbt, Databricks, and Airflow.
 
-**[World Cup Draw Simulator](https://github.com/Osvajorge/world-cup-draw-app)**
-Interactive group-draw simulator implementing real tournament seeding and confederation
-constraints.
+### [World Cup Draw Simulator](https://world-cup-draw-app.pages.dev)
 
-**[LeetCode Interview Mastery](https://github.com/Osvajorge/LeetCode-Interview-Mastery)**
+Interactive group draw simulator built with React, Vite, and Tailwind CSS. Supports two
+distribution modes, animated transitions, and shareable results. Deployed on Cloudflare
+Pages. [Source](https://github.com/Osvajorge/world-cup-draw-app).
+
+### [LeetCode Interview Mastery](https://github.com/Osvajorge/LeetCode-Interview-Mastery)
+
 Structured practice repository for SQL, Python, and algorithms.
-
----
-
-## GitHub activity
-
-<div align="center">
-  <img height="165em" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=osvajorge&theme=prussian&show_icons=true&hide_border=true&count_private=true&include_all_commits=true"/>
-  <img height="165em" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=osvajorge&theme=prussian&show_icons=true&hide_border=true&layout=compact&hide=html,css,scss&langs_count=8"/>
-</div>
 
 ---
 
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/osvajorge)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@osvajorge)
 
-Open to conversations about data platform work, pipeline architecture, and
-supply-chain analytics.
+Open to conversations about data platform work, pipeline architecture, and supply chain
+analytics.
