@@ -1,82 +1,78 @@
-# Hi there, I'm Jorge 👋
+# Jorge Guardado
 
-**Data Solutions Engineer at Oracle** | **Data Science Enthusiast**
+**Data Engineer** · Barcelona, Spain
 
----
-
-## 🎯 About Me
-
-- 📊 Currently working as a Data Analyst at Oracle
-- 🤝 Open to collaborating on Data Science and Analytics projects
-- 🐍 Passionate about Python, SQL and data-driven insights
-- 🏃‍♂️ When I'm not coding, you'll find me at the gym
+Building production data pipelines for enterprise supply-chain planning. Currently at
+[Quantiqus](https://quantiqus.com), working on-site with Mango on a large-scale
+[o9 Solutions](https://o9solutions.com) implementation for Merchandise Financial Planning
+and Assortment Planning.
 
 ---
 
-## 🛠️ Tech Stack
+## What I work on
 
-**Core Technologies:**
-- **Databases:** Oracle Database, Microsoft SQL Server, SQL, T-SQL, SSMS
-- **Programming:** Python, Pandas, NumPy, Matplotlib, Seaborn
-- **Machine Learning:** Hugging Face, Local Model Deployment
-- **Cloud & Infrastructure:** Oracle Cloud Infrastructure, Linux
-- **Version Control:** Git, GitHub
-- **Data Formats:** XML
+- **Integration pipelines** — medallion architecture (raw → normalized → planning layer) built in PySpark, moving data from Snowflake and Databricks into the o9 data lake.
+- **Data modeling** — Delta Lake tables, incremental merges, SCD handling, and dimensional models that feed OLAP cubes and live planning workspaces.
+- **Data quality** — reconciliation and validation frameworks that catch drift between source systems and the planning platform before the business does.
+- **Documentation** — pipeline specs, runbooks, and architecture notes that let the next engineer pick up the work without a handover call.
 
-**Soft Skills:**
-- Problem-Solving & Cross-functional Communication
-- Adaptability & Collaboration
-- Time Management
-
-**Languages:**
-- 🇪🇸 Spanish (Native)
-- 🇺🇸 English (Professional)
-- 🇩🇪 German (Conversational)
+Before moving into data engineering, I spent roughly five years in SQL support
+engineering at Oracle and TCS — a background that still shapes how I debug query
+plans and read execution behavior.
 
 ---
 
-## 📈 GitHub Analytics
+## Tech stack
+
+| Area | Tools |
+|---|---|
+| **Processing** | PySpark, Python, pandas |
+| **Query** | SQL, Snowflake SQL, Spark SQL, T-SQL, Oracle PL/SQL |
+| **Storage & formats** | Delta Lake, Delta Sharing, Parquet, AWS S3 |
+| **Platforms** | o9 Solutions, Databricks, Snowflake, Oracle Cloud Infrastructure |
+| **Modeling & orchestration** | dbt, Delta Live Tables, Autoloader, Airflow |
+| **Workflow** | Git, GitHub, Linux, VS Code |
+
+**Languages:** Spanish (native) · English (professional) · German (conversational) · French (learning)
+
+---
+
+## Selected projects
+
+**[dbt Databricks Retail Data Warehouse](https://github.com/Osvajorge/dbt-databricks-retail-data-warehouse)**
+Multi-layered warehouse (bronze → silver → gold) built with dbt on Databricks, covering
+data modeling, transformation, testing, and generated documentation.
+
+**[Databricks Flights Data Warehouse](https://github.com/Osvajorge/databricks-flights-project)**
+End-to-end pipeline with incremental ingestion via Autoloader, transformations in Delta
+Live Tables, and a gold layer with dynamic dimension and fact builders producing a star schema.
+
+**[E-commerce Product Analytics](https://github.com/Osvajorge/ecommerce-product-analytics)**
+Analytics platform for product metrics and customer insights on a modern data stack —
+dbt, Databricks, and Airflow.
+
+**[World Cup Draw Simulator](https://github.com/Osvajorge/world-cup-draw-app)**
+Interactive group-draw simulator implementing real tournament seeding and confederation
+constraints.
+
+**[LeetCode Interview Mastery](https://github.com/Osvajorge/LeetCode-Interview-Mastery)**
+Structured practice repository for SQL, Python, and algorithms.
+
+---
+
+## GitHub activity
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=osvajorge&theme=prussian&show_icons=true&hide_border=true&count_private=true&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=osvajorge&theme=prussian&show_icons=true&hide_border=true&layout=compact&hide=html,css,scss,jupyter%20notebook&langs_count=8"/>
+  <img height="165em" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=osvajorge&theme=prussian&show_icons=true&hide_border=true&count_private=true&include_all_commits=true"/>
+  <img height="165em" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=osvajorge&theme=prussian&show_icons=true&hide_border=true&layout=compact&hide=html,css,scss&langs_count=8"/>
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=osvajorge&theme=prussian&hide_border=true"/>
-</div>
-
 ---
 
-## 🔗 Let's Connect
+## Contact
 
-<div align="center">
-  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/osvajorge)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/osvajorge)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@osvajorge)
 
-</div>
-
----
-
-## 💡 Featured Projects
-
-### 🎬 [Letterboxd Analytics](https://github.com/osvajorge/letterboxd-analytics)
-Python-based analytics platform for analyzing movie data and user behavior patterns from Letterboxd platform (still working on it).
-
-### 🛩️ [Databricks Flights Data Warehouse](https://github.com/osvajorge/databricks-dbt-flights-project)
-End-to-end data engineering solution built on Databricks implementing Medallion Architecture with dynamic pipeline orchestration, incremental data processing using Autoloader, and automated dimensional modeling (SCD Type 1) for flight booking analytics.
-
-### 🏛️ [Mexican Government Word Cloud](https://github.com/osvajorge/mexican-government-wordcloud)
-NLP analysis of Mexican government communications using Jupyter Notebooks and data visualization techniques.
-
-### 🚀 [Wizeline Data Engineering Bootcamp](https://github.com/osvajorge/wizeline-data-engineering-bootcamp)
-Complete solutions for Wizeline's Data Engineering Bootcamp selection challenge, showcasing data pipeline and ETL skills.
-
----
-
-<div align="center">
-
-⭐ *Feel free to explore my repositories and don't hesitate to reach out for collaboration!*
-
-</div>
+Open to conversations about data platform work, pipeline architecture, and
+supply-chain analytics.
