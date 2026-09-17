@@ -66,6 +66,24 @@ Python for the pipeline. The panel itself has no framework and no build step: it
 inline SVG over one JSON file.
 [Source](https://github.com/Osvajorge/letterboxd-analytics).
 
+### [Route to GPX](https://github.com/Osvajorge/route-to-gpx)
+
+Paste a Komoot or Wikiloc link, get a GPX file and the measurements behind it.
+
+Any site will hand you a GPX. This one measures the track in the browser, from
+the file you are about to download, and shows those figures next to the ones the
+source site publishes so you can see where they disagree. Above all it marks
+where the recording has holes, because a watch draws a straight line across a
+hole and you navigate that stretch on your own.
+
+Reads Komoot's public tour endpoint, the TWKB track embedded in a Wikiloc page,
+or a .gpx you drop on the page, which never leaves the browser. Also searches by
+words and place, finds routes near a point, and re-arranges a closed ring's start
+or direction, measuring the seam that opens when the ring does not quite close.
+
+Python API, vanilla JavaScript front end, twenty-two test files, and continuous
+integration.
+
 ### [dbt Databricks Retail Data Warehouse](https://github.com/Osvajorge/dbt-databricks-retail-data-warehouse)
 
 Multi-layered warehouse (bronze, silver, gold) built with dbt on Databricks. Covers data
