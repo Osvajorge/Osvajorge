@@ -51,6 +51,21 @@ French (learning)
 
 ## Selected projects
 
+### [Letterboxd Analytics](https://letterboxd-analytics.pages.dev)
+
+A self-hosted rebuild of the Letterboxd Pro stats panel, covering 856 films. A one-time
+data export gives the watch history, the public RSS feed keeps it current, the public
+watchlist pages track 1,044 films, and each film's own Letterboxd page supplies the TMDB
+id that everything joins on. TMDB fills in genres, runtimes, credits and collections.
+
+A weekly GitHub Action rebuilds the figures and Cloudflare Pages republishes the site.
+Every figure that does not describe the whole library states its own denominator, because
+only 284 of those films carry a watch date.
+
+Python for the pipeline. The panel itself has no framework and no build step: it is
+inline SVG over one JSON file.
+[Source](https://github.com/Osvajorge/letterboxd-analytics).
+
 ### [dbt Databricks Retail Data Warehouse](https://github.com/Osvajorge/dbt-databricks-retail-data-warehouse)
 
 Multi-layered warehouse (bronze, silver, gold) built with dbt on Databricks. Covers data
@@ -62,20 +77,11 @@ End to end pipeline with incremental ingestion through Autoloader, transformatio
 Delta Live Tables, and a gold layer with dynamic dimension and fact builders that produce
 a star schema.
 
-### [E-commerce Product Analytics](https://github.com/Osvajorge/ecommerce-product-analytics)
-
-Analytics platform for product metrics and customer insights on a modern data stack:
-dbt, Databricks, and Airflow.
-
 ### [World Cup Draw Simulator](https://world-cup-draw-app.pages.dev)
 
 Interactive group draw simulator built with React, Vite, and Tailwind CSS. Supports two
 distribution modes, animated transitions, and shareable results. Deployed on Cloudflare
 Pages. [Source](https://github.com/Osvajorge/world-cup-draw-app).
-
-### [LeetCode Interview Mastery](https://github.com/Osvajorge/LeetCode-Interview-Mastery)
-
-Structured practice repository for SQL, Python, and algorithms.
 
 ---
 
